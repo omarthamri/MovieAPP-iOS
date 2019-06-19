@@ -1,15 +1,15 @@
 //
-//  AppStoreAppTests.swift
-//  AppStoreAppTests
+//  MovieAppTests.swift
+//  MovieAppTests
 //
 //  Created by MACBOOK PRO RETINA on 10/06/2019.
 //  Copyright © 2019 MACBOOK PRO RETINA. All rights reserved.
 //
 
 import XCTest
-@testable import AppStoreApp
+@testable import MovieApp
 
-class AppStoreAppTests: XCTestCase {
+class MovieAppAppTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

@@ -12,8 +12,8 @@
 		764B521E22AEDF4200997DF1 /* MovieApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 764B521C22AEDF4200997DF1 /* MovieApp.xcdatamodeld */; };
 		764B522022AEDF4200997DF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 764B521F22AEDF4200997DF1 /* Assets.xcassets */; };
 		764B522322AEDF4200997DF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 764B522122AEDF4200997DF1 /* LaunchScreen.storyboard */; };
-		764B522E22AEDF4200997DF1 /* AppStoreAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764B522D22AEDF4200997DF1 /* AppStoreAppTests.swift */; };
-		764B523922AEDF4200997DF1 /* AppStoreAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764B523822AEDF4200997DF1 /* AppStoreAppUITests.swift */; };
+		764B522E22AEDF4200997DF1 /* MovieAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764B522D22AEDF4200997DF1 /* MovieAppTests.swift */; };
+		764B523922AEDF4200997DF1 /* MovieAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764B523822AEDF4200997DF1 /* MovieAppUITests.swift */; };
 		764B524722AEF46600997DF1 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764B524622AEF46600997DF1 /* CategoryCell.swift */; };
 		76A11D4322BA8D24001AD90E /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A11D4222BA8D24001AD90E /* Movie.swift */; };
 		76A11D4522BA8D4D001AD90E /* MovieCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A11D4422BA8D4D001AD90E /* MovieCategory.swift */; };
@@ -53,10 +53,10 @@
 		764B522222AEDF4200997DF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		764B522422AEDF4200997DF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		764B522922AEDF4200997DF1 /* MovieAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovieAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		764B522D22AEDF4200997DF1 /* AppStoreAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreAppTests.swift; sourceTree = "<group>"; };
+		764B522D22AEDF4200997DF1 /* MovieAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieAppTests.swift; sourceTree = "<group>"; };
 		764B522F22AEDF4200997DF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		764B523422AEDF4200997DF1 /* MovieAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovieAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		764B523822AEDF4200997DF1 /* AppStoreAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreAppUITests.swift; sourceTree = "<group>"; };
+		764B523822AEDF4200997DF1 /* MovieAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieAppUITests.swift; sourceTree = "<group>"; };
 		764B523A22AEDF4200997DF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		764B524622AEF46600997DF1 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
 		76A11D4222BA8D24001AD90E /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
@@ -135,7 +135,7 @@
 		764B522C22AEDF4200997DF1 /* MovieAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				764B522D22AEDF4200997DF1 /* AppStoreAppTests.swift */,
+				764B522D22AEDF4200997DF1 /* MovieAppTests.swift */,
 				764B522F22AEDF4200997DF1 /* Info.plist */,
 			);
 			path = MovieAppTests;
@@ -144,7 +144,7 @@
 		764B523722AEDF4200997DF1 /* MovieAppUITests */ = {
 			isa = PBXGroup;
 			children = (
-				764B523822AEDF4200997DF1 /* AppStoreAppUITests.swift */,
+				764B523822AEDF4200997DF1 /* MovieAppUITests.swift */,
 				764B523A22AEDF4200997DF1 /* Info.plist */,
 			);
 			path = MovieAppUITests;
@@ -344,7 +344,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				764B522E22AEDF4200997DF1 /* AppStoreAppTests.swift in Sources */,
+				764B522E22AEDF4200997DF1 /* MovieAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,7 +352,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				764B523922AEDF4200997DF1 /* AppStoreAppUITests.swift in Sources */,
+				764B523922AEDF4200997DF1 /* MovieAppUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -527,13 +527,13 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WG5JPDZ522;
-				INFOPLIST_FILE = AppStoreAppTests/Info.plist;
+				INFOPLIST_FILE = MovieAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = test.AppStoreAppTests;
+				PRODUCT_BUNDLE_IDENTIFIER = test.MovieAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppStoreApp.app/AppStoreApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MovieApp.app/MovieApp";
 			};
 			name = Debug;
 		};
@@ -544,13 +544,13 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WG5JPDZ522;
-				INFOPLIST_FILE = AppStoreAppTests/Info.plist;
+				INFOPLIST_FILE = MovieAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = test.AppStoreAppTests;
+				PRODUCT_BUNDLE_IDENTIFIER = test.MovieAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppStoreApp.app/AppStoreApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MovieApp.app/MovieApp";
 			};
 			name = Release;
 		};
@@ -560,13 +560,13 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WG5JPDZ522;
-				INFOPLIST_FILE = AppStoreAppUITests/Info.plist;
+				INFOPLIST_FILE = MovieAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = test.AppStoreAppUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = test.MovieAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = AppStoreApp;
+				TEST_TARGET_NAME = MovieApp;
 			};
 			name = Debug;
 		};
@@ -576,13 +576,13 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WG5JPDZ522;
-				INFOPLIST_FILE = AppStoreAppUITests/Info.plist;
+				INFOPLIST_FILE = MovieAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = test.AppStoreAppUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = test.MovieAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = AppStoreApp;
+				TEST_TARGET_NAME = MovieApp;
 			};
 			name = Release;
 		};

@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  AppStoreApp
+//  MovieApp
 //
 //  Created by MACBOOK PRO RETINA on 10/06/2019.
 //  Copyright © 2019 MACBOOK PRO RETINA. All rights reserved.
